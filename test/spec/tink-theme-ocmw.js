@@ -1,5 +1,5 @@
 'use strict';
-describe('tink-skeleton-angular', function() {
+describe('tink-theme-ocmw', function() {
 
   var bodyEl = $('body'), sandboxEl;
   var $compile, $templateCache, scope;
