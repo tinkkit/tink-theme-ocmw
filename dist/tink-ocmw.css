@@ -2810,7 +2810,7 @@ html.has-open-modal {
   -ms-user-select: none;
   user-select: none;
   width: 100%;
-  z-index: 7; }
+  z-index: 8; }
   .modal:before {
     content: '';
     display: inline-block;
@@ -3466,11 +3466,25 @@ button i {
  * Make some elements stick to the top of the viewport
  */
 .is-sticky {
+  left: 0;
+  overflow: auto;
   position: fixed;
+  right: 0;
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
-  width: 100%; }
+  z-index: 6; }
+
+/**
+ * Fixes when a navigation menu is present
+ */
+@media (min-width: 768px) {
+  .has-nav-left .is-sticky {
+    left: 15.71429rem ; } }
+
+@media (min-width: 768px) {
+  .has-nav-right .is-sticky {
+    right: 15.71429rem ; } }
 
 /**
  * Angular related components
@@ -3786,7 +3800,7 @@ html {
   top: 0;
   transition: height 0.1s linear;
   width: 100%;
-  z-index: 6; }
+  z-index: 7; }
   .nav-top:before, .nav-top:after {
     content: " ";
     display: table; }
