@@ -16,6 +16,14 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.6.3] - 2015-10-xx
+
+### Changed
+- Changed the hyperlink color
+- Changed the overall blue tone
+
+
+
 ## [1.6.2] - 2015-09-25
 
 ### Changed

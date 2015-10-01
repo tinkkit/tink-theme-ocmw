@@ -6,7 +6,7 @@
 /**
  * Main
  */
-$primary:                                #00b3dc;
+$primary:                                #039be5;
 
 $logo:                                   "ocmw-logo.svg";
 
@@ -23,6 +23,9 @@ $nav-aside-link-hover-background-color:  lighten($brand-light, 46%);
  * Colors
  */
 $brand-success:                          #0b0;
+
+$link-color:                             $primary;
+// $link-hover-color:                       lighten($link-color, 8%);
 
 
 /**
