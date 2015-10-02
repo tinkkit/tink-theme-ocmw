@@ -22,7 +22,10 @@ $nav-aside-link-hover-background-color:  lighten($brand-light, 46%);
 /**
  * Colors
  */
-$brand-success:                          #0b0;
+$brand-success:                          #56b91a !default; // green
+$brand-info:                             #42a5f5 !default; // blue - alt: #6eade4 old: #1ba8d9
+$brand-warning:                          #ffa726 !default; // orange
+$brand-danger:                           #ef5350 !default; // red
 
 $link-color:                             $primary;
 // $link-hover-color:                       lighten($link-color, 8%);
@@ -45,7 +48,30 @@ $btn-primary-border:                     $primary;
 /**
  * Callouts
  */
-$callout-color:                          $primary;
+$callout-color:                          mix($brand-info, #333, 25%);
+$callout-bgcolor:                        lighten(#e3f2fd, 1%);
+$callout-link-color:                     $link-color;
+$callout-border:                         $brand-info;
+
+
+$callout-color-success:                  mix($brand-success, #333, 25%);
+$callout-bgcolor-success:                lighten(#e8f5e9, 1%);
+$callout-link-color-success:             $link-color;
+$callout-border-success:                 $brand-success;
+
+
+$callout-color-warning:                  mix($brand-warning, #333, 25%);
+$callout-bgcolor-warning:                lighten(#fff3e0, 1%);
+$callout-link-color-warning:             $link-color;
+$callout-border-warning:                 $brand-warning;
+
+
+$callout-color-danger:                   mix($brand-danger, #333, 25%);
+$callout-bgcolor-danger:                 lighten(#ffebee, 1%);
+$callout-link-color-danger:              $link-color;
+$callout-border-danger:                  $brand-danger;
+
+
 
 
 /**

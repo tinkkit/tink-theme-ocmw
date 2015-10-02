@@ -19,8 +19,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [1.6.3] - 2015-10-xx
 
 ### Changed
-- Changed the hyperlink color
+- Tweaked the color palette
 - Changed the overall blue tone
+- Changed the styling of the interactive table
+- Refactored callouts
+
+### Fixed
+- Color classes now override any other specified color
 
 
 
