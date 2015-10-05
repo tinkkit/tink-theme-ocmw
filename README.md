@@ -1,6 +1,6 @@
 # Tink OCMW theme
 
-v1.6.2
+v1.7.0
 
 ## What is this repository for?
 
