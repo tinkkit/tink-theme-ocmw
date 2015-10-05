@@ -13,10 +13,12 @@ $logo:                                   "ocmw-logo.svg";
 $brand:                                  #416a50;
 $brand-light:                            #5f9770;
 
+$link-color:                             $primary;
+
 $nav-top-bg-color:                       #333;
-$nav-aside-link-active-background-color: $brand-light;
-$nav-aside-link-hover-color:             $brand-light;
-$nav-aside-link-hover-background-color:  lighten($brand-light, 46%);
+$nav-aside-link-hover-color:             darken($link-color, 10%);
+$nav-aside-link-hover-background-color:  rgba(#000, .05);
+$nav-aside-link-active-color:            $nav-aside-link-hover-color;
 
 
 /**
@@ -26,8 +28,6 @@ $brand-success:                          #56b91a; // green
 $brand-info:                             #42a5f5; // blue - alt: #6eade4 old: #1ba8d9
 $brand-warning:                          #ffa726; // orange
 $brand-danger:                           #ef5350; // red
-
-$link-color:                             $primary;
 // $link-hover-color:                       lighten($link-color, 8%);
 
 

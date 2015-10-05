@@ -4034,11 +4034,11 @@ html {
       text-decoration: none;
       width: 100%; }
       .nav-aside-section li a:hover, .nav-aside-section li a:active, .nav-aside-section li a:focus {
-        background-color: #edf4ef;
-        color: #5f9770; }
+        background-color: rgba(0, 0, 0, 0.05);
+        color: #0279b3; }
         .nav-aside-section li a:hover .badge, .nav-aside-section li a:active .badge, .nav-aside-section li a:focus .badge {
           background-color: #fff;
-          color: #5f9770; }
+          color: #0279b3; }
       .nav-aside-section li a:focus {
         box-shadow: none; }
       .nav-aside-section li a > * {
@@ -4048,14 +4048,14 @@ html {
         padding: 0.21429rem 0.71429rem 0rem 0rem ;
         vertical-align: top; }
     .nav-aside-section li.active a {
-      color: #5f9770;
+      color: #0279b3;
       font-weight: 700; }
       .nav-aside-section li.active a + ul a {
         color: #525252;
         font-weight: normal; }
         .nav-aside-section li.active a + ul a:hover, .nav-aside-section li.active a + ul a:active, .nav-aside-section li.active a + ul a:focus {
-          background-color: #edf4ef;
-          color: #5f9770; }
+          background-color: rgba(0, 0, 0, 0.05);
+          color: #0279b3; }
     .nav-aside-section > ul {
       /**
        * Menu second level
@@ -4096,10 +4096,10 @@ html {
         .nav-aside-section > ul ul li a {
           padding: 0.5rem 1.07143rem 0.5rem 2.14286rem ; }
         .nav-aside-section > ul ul li.active a:hover .badge, .nav-aside-section > ul ul li.active a:active .badge, .nav-aside-section > ul ul li.active a:focus .badge {
-          background: #5f9770;
+          background: #0279b3;
           color: #fff; }
         .nav-aside-section > ul ul li.active .badge {
-          background: #5f9770;
+          background: #0279b3;
           color: #fff; }
   .nav-aside .badge {
     background-color: #eaeaea;
@@ -4377,14 +4377,14 @@ html {
         padding: 6px 12px;
         text-decoration: none; }
         .popover-list-buttons li a:hover {
-          background-color: #edf4ef; }
+          background-color: rgba(0, 0, 0, 0.05); }
   .popover-menu-list ul > hr {
     border-top-color: #eaeaea;
     margin: 0.35714rem  0; }
   .popover-menu-list ul li {
     padding: 0.35714rem ; }
     .popover-menu-list ul li:hover:not([disabled]) {
-      background-color: #edf4ef;
+      background-color: rgba(0, 0, 0, 0.05);
       cursor: pointer;
       transition: background-color linear 0.1s; }
     .popover-menu-list ul li[disabled] {

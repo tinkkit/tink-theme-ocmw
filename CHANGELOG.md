@@ -16,6 +16,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.7.1] - 2015-10-05
+
+### Fixed
+- Fixed the color scheme of the side navigation
+
+
+
 ## [1.7.0] - 2015-10-05
 
 ### Added
