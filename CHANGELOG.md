@@ -16,6 +16,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.7.4] - 2015-10-13
+
+### Changed
+- Changed more components to the new color scheme
+
+
+
 ## [1.7.3] - 2015-10-13
 
 ### Fixed

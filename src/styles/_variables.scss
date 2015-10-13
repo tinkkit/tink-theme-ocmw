@@ -6,78 +6,130 @@
 /**
  * Main
  */
-$primary:                                #039be5;
+$primary:                                    #039be5;
 
-$logo:                                   "ocmw-logo.svg";
-$logo-width:                             100px;
+$logo:                                       "ocmw-logo.svg";
+$logo-width:                                 100px;
 
-$brand:                                  #007b32;
-$brand-light:                            #32974b;
+$brand:                                      #007b32;
+$brand-light:                                #32974b;
 
-$link-color:                             $primary;
+$link-color:                                 $primary;
 
-$nav-top-bg-color:                       #333;
-$nav-aside-link-hover-color:             darken($link-color, 10%);
-$nav-aside-link-hover-background-color:  rgba(#000, .05);
-$nav-aside-link-active-color:            $nav-aside-link-hover-color;
+
+
+/**
+ * Navigation
+ */
+$nav-top-bg-color:                           #333;
+$nav-aside-link-hover-color:                 darken($link-color, 10%);
+$nav-aside-link-hover-background-color:      rgba(#000, .05);
+$nav-aside-link-active-color:                $nav-aside-link-hover-color;
 
 
 /**
  * Colors
  */
-$brand-success:                          #56b91a; // green
-$brand-info:                             #42a5f5; // blue - alt: #6eade4 old: #1ba8d9
-$brand-warning:                          #ffa726; // orange
-$brand-danger:                           #ef5350; // red
-// $link-hover-color:                       lighten($link-color, 8%);
+$brand-success:                              #56b91a; // green
+$brand-info:                                 #42a5f5; // blue - alt: #6eade4 old: #1ba8d9
+$brand-warning:                              #ffa726; // orange
+$brand-danger:                               #ef5350; // red
+// $link-hover-color:                           lighten($link-color, 8%);
 
 
 /**
  * Code
  */
-$code-bg:                                lighten($brand, 60%);
+$code-bg:                                    lighten($brand, 73%);
+$pre-border-color:                           mix($brand, #fff, 30%);
+$input-base-color:                           $primary;
+
+
+/**
+ * Focus
+ */
+$input-base-color:                           $primary;
+$input-border-focus:                         $primary;
 
 
 /**
  * Buttons
  */
-$btn-primary-color:                      #fff;
-$btn-primary-bg:                         $primary;
-$btn-primary-border:                     $primary;
+$btn-primary-color:                          #fff;
+$btn-primary-bg:                             $primary;
+$btn-primary-border:                         $primary;
+
+
+/**
+ * Datepicker
+ */
+$datepicker-btn-hover-color:                 $primary;
+$datepicker-btn-selected-bg-color:           $primary;
+$datepicker-btn-today-color:                 $primary;
 
 
 /**
  * Callouts
  */
-$callout-color:                          mix($brand-info, #333, 25%);
-$callout-bgcolor:                        lighten(#e3f2fd, 1%);
-$callout-link-color:                     $link-color;
-$callout-border:                         $brand-info;
+$callout-color:                              mix($brand-info, #333, 25%);
+$callout-bgcolor:                            lighten(#e3f2fd, 1%);
+$callout-link-color:                         $link-color;
+$callout-border:                             $brand-info;
 
 
-$callout-color-success:                  mix($brand-success, #333, 25%);
-$callout-bgcolor-success:                lighten(#e8f5e9, 1%);
-$callout-link-color-success:             $link-color;
-$callout-border-success:                 $brand-success;
+$callout-color-success:                      mix($brand-success, #333, 25%);
+$callout-bgcolor-success:                    lighten(#e8f5e9, 1%);
+$callout-link-color-success:                 $link-color;
+$callout-border-success:                     $brand-success;
 
 
-$callout-color-warning:                  mix($brand-warning, #333, 25%);
-$callout-bgcolor-warning:                lighten(#fff3e0, 1%);
-$callout-link-color-warning:             $link-color;
-$callout-border-warning:                 $brand-warning;
+$callout-color-warning:                      mix($brand-warning, #333, 25%);
+$callout-bgcolor-warning:                    lighten(#fff3e0, 1%);
+$callout-link-color-warning:                 $link-color;
+$callout-border-warning:                     $brand-warning;
 
 
-$callout-color-danger:                   mix($brand-danger, #333, 25%);
-$callout-bgcolor-danger:                 lighten(#ffebee, 1%);
-$callout-link-color-danger:              $link-color;
-$callout-border-danger:                  $brand-danger;
+$callout-color-danger:                       mix($brand-danger, #333, 25%);
+$callout-bgcolor-danger:                     lighten(#ffebee, 1%);
+$callout-link-color-danger:                  $link-color;
+$callout-border-danger:                      $brand-danger;
 
+
+/**
+ * Hit-area-box
+ */
+$hit-area-checked-bgcolor:                   $primary;
+
+
+/**
+ * Interactive table
+ */
+$table-interactive-options-selected-bgcolor: lighten($primary, 45%);
+$table-interactive-options-dropzone-border:  $primary;
+
+
+/**
+ * Pagination
+ */
+$pagination-link-active-bg:                  $primary;
 
 
 
 /**
  * Upload
  */
-$upload-hover-background-color:          lighten($primary, 50%);
-$upload-border-color:                    $primary;
-$upload-bg-color-success:                lighten($brand-success, 54%);
+$upload-hover-background-color:              lighten($primary, 50%);
+$upload-border-color:                        $primary;
+$upload-bg-color-success:                    lighten($brand-success, 54%);
+
+
+/**
+ * Badges
+ */
+$badge-primary-bg:                           $primary;
+
+
+/**
+ * Labels
+ */
+$label-primary:                              $primary;
