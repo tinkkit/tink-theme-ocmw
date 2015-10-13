@@ -16,6 +16,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.7.2] - 2015-10-13
+
+### Changed
+- Changed the OCMW logo
+
+
+
 ## [1.7.1] - 2015-10-05
 
 ### Fixed
