@@ -16,6 +16,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [1.7.3] - 2015-10-13
+
+### Fixed
+- Fixed the brand colors
+
+
+
 ## [1.7.2] - 2015-10-13
 
 ### Changed
