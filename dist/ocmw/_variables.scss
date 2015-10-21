@@ -104,6 +104,8 @@ $hit-area-checked-bgcolor:                   $primary;
 /**
  * Interactive table
  */
+$table-interactive-hoverable-row-bgcolor:    lighten($primary, 52%);
+$table-interactive-selected-row-bgcolor:     lighten($primary, 50%);
 $table-interactive-options-selected-bgcolor: lighten($primary, 45%);
 $table-interactive-options-dropzone-border:  $primary;
 
