@@ -14,6 +14,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Security
 -->
 
+## [1.10.0] - 2015-12-17
+
+### Added
+- Added a clear button in the timepicker
+- Added larger margin helper classes
+
+### Changed
+- Completely revamped the timeline
+- Removed margins from callouts, cards and breadcrumbs
 
 
 ## [1.9.2] - 2015-11-25

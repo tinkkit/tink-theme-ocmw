@@ -1,6 +1,6 @@
 {
   "name": "tink-theme-ocmw",
-  "version": "1.9.2",
+  "version": "1.10.0",
   "main": [
     "dist/tink-ocmw.css"
   ],
