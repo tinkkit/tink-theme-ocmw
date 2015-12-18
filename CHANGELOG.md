@@ -14,6 +14,23 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Security
 -->
 
+
+
+## [1.10.1] - 2015-12-18
+
+### Added
+- Added an option for a compacter timeline
+
+### Changed
+- Improved the timeline styling
+
+### Fixed
+- Fixed a bug where the timeline line would disappear in a modal dialog
+- Fixed a bug where all modal content would become selected when clicked inside the modal dialog
+- Fixed the pagination view on mobile
+
+
+
 ## [1.10.0] - 2015-12-17
 
 ### Added
@@ -23,6 +40,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Completely revamped the timeline
 - Removed margins from callouts, cards and breadcrumbs
+
 
 
 ## [1.9.2] - 2015-11-25
