@@ -1,7 +1,7 @@
 {
   "name": "tink-theme-ocmw",
   "description": "Tink OCMW theme",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "repository": {
     "type": "git",
     "url": "git@github.com:tinkkit/tink-theme-ocmw.git"
